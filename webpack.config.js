@@ -20,14 +20,14 @@ module.exports = {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
-      {
-        test: /\.js$/,
-        use: [
-          {
-            loader: path.resolve('i18n_loader/index.js'),
-          }
-        ]
-      } 
+      // {
+      //   test: /\.js$/,
+      //   use: [
+      //     {
+      //       loader: path.resolve('i18n_loader/index.js'),
+      //     }
+      //   ]
+      // } 
     ]
   } 
 

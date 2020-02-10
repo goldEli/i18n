@@ -1,5 +1,9 @@
 
-  import zh from "./zh/index"
+/**
+ * 此文件请勿修改
+ * Do not modify this file
+*/
+import zh from "./zh/index"
 import en from "./en/index"
 
 const o = {zh, en}
